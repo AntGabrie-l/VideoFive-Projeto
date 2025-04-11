@@ -397,3 +397,105 @@ body:not(.sidebar-hidden) {
 .Inscritos{
   font-size: small;
 }
+
+
+/* Botões Gostei/Dislike */
+.gostei-botao.active {
+  color: #065fd4;
+  background: #065fd411 !important;
+}
+
+.dislike-botao.active {
+  color: #065fd4;
+  background: #065fd411 !important;
+}
+
+.gostei-botao.active span,
+.dislike-botao.active span {
+  fill: #065fd4; }
+
+.video-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 36px;
+    position: relative;
+  }
+
+.gostei-botao, .dislike-botao {
+    height: 100%;
+    padding: 0 12px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    gap: 6px; 
+    overflow: hidden;
+
+  }
+
+  .inscricao-botao {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 16px;
+    height: 36px;
+    background: #1b1a1a;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+.inscricao-botao:hover {
+    background: #6b6a6a;
+  }
+
+.inscricao-botao.subscribed {
+  background: #f1f1f1;
+  color: #4b4a4a;
+}
+
+
+.sininho {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sininho:hover {
+  background: #e1e1e1;
+}
+
+.sininho.active {
+  color: #065fd4;
+}
+
+.compartilhar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px;
+  height: 36px;
+  background: #f1f1f1;
+  color: #030303;
+  border: none;
+  border-radius: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+
+}
+
+.compartilhar:hover {
+  background: #e5e5e5;
+  
+}
